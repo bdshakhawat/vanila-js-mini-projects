@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book List Application</title>
+
+        <!-- kit's code here -->
+        <script
+            src="https://kit.fontawesome.com/f6f0550bc4.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Custom font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.png" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>
+                    <span class="title"><i class="fas fa-book"></i> Book</span>List
+                </h1>
+            </header>
+
+            <main>
+                <section>
+                    <form method="POST">
+                        <label for="title">Title</label>
+                        <input class="input" type="text" id="title" required />
+
+                        <label for="author">Author</label>
+                        <input class="input" type="text" id="author" required />
+
+                        <label for="year">Year</label>
+
+                        <!-- I'm forced to use input as "text" instead of "number"
+                        because number doesn't support bengali numbers! -->
+                        <input type="text" class="input" id="year" required />
+
+                        <input type="submit" value="Add Book" class="btn" />
+                    </form>
+                </section>
+
+                <section>
+                    <table class="table display-none">
+                        <thead>
+                            <tr>
+                                <th class="table-title">Title</th>
+                                <th class="table-author">Author</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
+            </main>
+        </div>
+
+        <!-- <script src="app.js"></script> -->
+    </body>
+</html>
