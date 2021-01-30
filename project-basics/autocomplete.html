@@ -6,10 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/action_page.php" target="_blank" method="get">
-        <h2>The action attribute of form tag will define where the form data will be send after clicking by client.But 
-            usually the form data is sent to a file on the server after clicking by the client.
-        </h2>
+    <form action="/action_page.php" target="_blank" method="get" autocomplete="on">
+        <h2>The form autocomplete attribute</h2>
+        <p>Fill in and submit the form, then reload the page, start to fill in the form 
+            again - and see how autocomplete works.
+        </p>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="Shakhawat"><br><br>
         <label for="lname">Last name:</label><br>
