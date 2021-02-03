@@ -15,16 +15,23 @@
     <p>Click the button to display the innerHTML of 
         the second li element (index 1).
     </p>
-    <p id="test"></p>
+    <p id="test">This is a test para</p>
     <h2 id="demo"></h2>
     <button type="button" onclick="myFunc()">Try it</button>
     <script>
         function myFunc() {
-            let x = document.getElementsByTagName("LI");
+            let x = document.getElementsByTagName("p");
+            var i;
+            for(i = 0; i<x.length;i++ ){
+                x[i].style.backgroundColor = "red";
+            }
+            // document.getElementsByTagName("p")[2].innerHTML = "Hi i am here";
+            // let x = document.getElementsByTagName("LI");
             // x[1].innerHTML = "Fat";
             // document.getElementById("test").innerHTML = x[1].innerHTML;
-           let y =  document.getElementById("demo")
-           y.innerHTML = x[2].innerHTML;
+        //    let y =  document.getElementById("demo")
+        //    y.innerHTML = x[2].innerHTML;
+        // document.getElementById("test").innerHTML = x.length;
 
         }
 
