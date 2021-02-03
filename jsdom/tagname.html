@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>An unordered list</p>
+    <ul>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <p>Click the button to display the innerHTML of 
+        the second li element (index 1).
+    </p>
+    <p id="test"></p>
+    <h2 id="demo"></h2>
+    <button type="button" onclick="myFunc()">Try it</button>
+    <script>
+        function myFunc() {
+            let x = document.getElementsByTagName("LI");
+            // x[1].innerHTML = "Fat";
+            // document.getElementById("test").innerHTML = x[1].innerHTML;
+           let y =  document.getElementById("demo")
+           y.innerHTML = x[2].innerHTML;
+
+        }
+
+    </script>
+</body>
+</html>
