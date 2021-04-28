@@ -7,7 +7,47 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="html"></h1>
-    <script src="practice.js"></script>
+    <a href="#" class="click">Click Here</a>
+
+    <!-- <a href="#" class="hide">Hide</a> -->
+    <!-- <a href="#" class="toogle">Show</a> -->
+
+    <p>Hide and show the text</p>
+
+
+
+
+
+
+
+<script src="jquery.js"></script>
+    <script>
+        // only mouseup and mousedown should be written without camel notation.
+        // $(".click").click(function(){
+        //     $("p").hide();
+        // })
+        // $(".hide").click(function(){
+        //     $("p").hide();
+        // })
+
+        // $(".show").click(function(){
+        //     $("p").show();
+        // })
+        // toogle =hide + show  other two functions are fadeToggle and slideToggle
+        $(".click").click(function(){
+            $("p").toggle();
+        })
+
+
+
+
+    </script>
+
+
+
+
+
+    
+    
 </body>
 </html>
