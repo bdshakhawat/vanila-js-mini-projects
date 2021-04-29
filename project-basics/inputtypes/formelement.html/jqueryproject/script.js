@@ -136,6 +136,179 @@ $('#loginButton').click(function(){
 
 
 
+/* .hide():this function or method can hide or disappear any html tag after clicking.We can set timing inside the ()
+$('#btn').click(function(){
+    $('.div-style').hide(1000);
+});
+
+
+
+/* .show():this function or method can show or visible any html tag after clicking.In this case, we need to use display:none; in .div-style css file to keep hide the div and after clicking the button it will be seen or visible.We can also set timing inside the ().
+$('#btn').click(function(){
+    $('.div-style').show(2000);
+}); */
+
+
+
+
+/* .hide().show() together: if we want we can use this two method together to made hide and then show by clicking the click me button.
+$('#btn').click(function(){
+    $('.div-style').hide(2000).show(2000);
+});
+
+
+
+/* .toggle():this function or method can show and hide or hide and show any html tag after clicking.If the div is in hide position then it will show first then hide or if the div is in show positon then it will hide first then hide in  click.
+$('#btn').click(function(){
+    $('.div-style').toggle(2000);
+}); */
+
+
+
+
+/* .fadeOut():this method will disappear the div after clicking on the click me button.
+$('#btn').click(function(){
+    $('.div-style').fadeOut(2000);
+});*/
+
+
+/* .fadeIn():this method will appear the div after clicking on the click me button if the display:none; is already applide in css style file.
+$('#btn').click(function(){
+    $('.div-style').fadeOut(2000);
+});*/
+
+
+/* .fadeOut().fadeIn() together: if we want we can use this two method together to made hide and then show by clicking the click me button.
+$('#btn').click(function(){
+    $('.div-style').fadeOut(2000).fadeIn(2000);
+});*/
+
+
+
+/* .fadeToggle():this function or method can show and hide or hide and show any html tag after clicking.If the div is in hide position then it will show first then hide or if the div is in show positon then it will hide first then hide in  click.
+$('#btn').click(function(){
+    $('.div-style').fadeToggle(2000);
+}); */
+
+
+
+/* .fadeTo(): this method will decrease the opacity of the div
+$('document').ready(function(){
+    $('#btn').click(function(){
+        $('.div-style').fadeTo(2000,0.6);
+    })
+});*/
+
+
+
+/*  .slideUp(): this method will create a slide to upward and become invisible the div after clicking the button.
+$('document').ready(function(){
+    $('#btn').click(function(){
+        $('.div-style').slideUp();
+    })
+}); */
+
+
+/*  .slideUp().slideDown: this method will create a slide to upward and become invisible the div after clicking the button.*/
+$('document').ready(function(){
+    $('#btn').click(function(){
+        $('.div-style').slideUp(2000).slideDown(2000);
+    })
+}); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
