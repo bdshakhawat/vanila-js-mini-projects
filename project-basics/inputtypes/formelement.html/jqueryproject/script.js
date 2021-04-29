@@ -96,6 +96,59 @@ $('h1').removeClass('style1 style2'); with this method we can remove any css cla
 
 
 
+/*with javascript:
+document.querySelector('button').addEventListener('click', function(){
+    document.querySelector('h1').innerHTML = "You have clicked";
+})
+With jquery:
+$('button').click(function(){
+    $('h1').text('You have clicked');
+}); */
+
+
+
+
+/* .click():
+$('#loginButton').click(function(){
+    // now to take the value proviede by the user
+   var password1 = $('#pass1').val();
+   var password2 = $('#pass2').val();
+//    now if the user don't enter any password only then we will match the password.so, if the password1 and 2 is not empty then the condition will be like this:
+
+
+   if(password1 !=""  && password2 != ""){
+       if(password1== password2){
+           alert('successfully login')
+       }
+       else{
+           alert('password not match')
+       }
+
+   }
+   else{
+       alert('please enter password');
+   }
+
+
+
+}) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
