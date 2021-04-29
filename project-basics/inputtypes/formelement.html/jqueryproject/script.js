@@ -209,12 +209,47 @@ $('document').ready(function(){
 }); */
 
 
-/*  .slideUp().slideDown: this method will create a slide to upward and become invisible the div after clicking the button.*/
+/*  .slideUp().slideDown: this method will create a slide to upward and become invisible the div after clicking the button.
 $('document').ready(function(){
     $('#btn').click(function(){
         $('.div-style').slideUp(2000).slideDown(2000);
     })
-}); 
+}); */
+
+
+
+$('#btn').click(function(){
+    $('.div-style').animate({
+            opacity: '0.5',
+             width: '800px',
+             height: '500px'
+    
+
+
+
+    },2000)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
